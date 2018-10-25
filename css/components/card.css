@@ -1,0 +1,97 @@
+.card{
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,2);
+  border-radius: 4px;
+  flex-basis:200px ;
+  background: #FFEFD5;
+}
+
+.card img{
+	border-radius: 5px;
+	height: 700px;
+
+}
+
+.card h3{
+	flex-grow: 2;
+	padding-left: 20px;
+	font-size: 28px;
+	font-weight: bold;
+	align-items: flex-start;
+	text-align: center;
+}
+
+
+.intro-city{
+	flex-flow: row wrap;
+	background: #ffb480;
+	border-radius: 4px;
+	padding: 20px;
+	margin: auto;
+	width: 400px;
+}
+
+.monuments{
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,2);
+  border-radius: 4px;
+  flex-basis:200px ;
+  flex-direction: row-reverse;
+  background: #FFEFD5;
+  text-align: center;
+}
+
+.card-monument{
+    flex-flow: row wrap;
+	background: #ffb480;
+	border-radius: 4px;
+	padding-right: 30px;
+	padding-left: 30px; 
+	margin-right: 20px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+.card-monument img{
+	width: 600px;
+	border-radius: 5px;
+}
+
+.card-monument h3{
+   font-size: 28px;
+
+}
+
+
+
+
+
+@media (max-width: 960px) {
+  .card-monument {
+    flex-direction: column;
+   width: 700px;
+}
+
+@media (max-width: 720px) {
+  .card.monument {
+    flex-direction: column;
+     width: 500px;
+   
+}
+
+@media (max-width: 540px) {
+  .card-monument {
+    flex-direction: column;
+    width: 300px;
+  
+  }
+
+
+	/* flex-direction: column;*/

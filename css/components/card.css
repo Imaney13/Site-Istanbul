@@ -12,8 +12,10 @@
 
 .card img{
 	border-radius: 5px;
-	height: 700px;
-
+	max-width:60%;
+	margin-left: 5%;
+	margin-right: 3%;
+	max-height: 700px;
 }
 
 .card h3{
@@ -34,9 +36,10 @@
 	border-radius: 4px;
 	padding: 20px;
 	margin: auto;
-	width: 400px;
+	width: 40%;
 	box-shadow: 0px 20px 30px grey;
 	margin-top: 5px;
+	margin-bottom: 15px;
 }
 
 .monuments{
@@ -56,6 +59,7 @@
 .card-monument{
     flex-flow: row wrap;
 	background: #fbf9fa;
+	max-width:90%;
 	border-radius: 4px;
 	padding-right: 30px;
 	padding-left: 30px; 
@@ -68,23 +72,18 @@
 
 
 .card-monument img{
-	width: 600px;
+	max-width:70%;
 	border-radius: 5px;
 }
 
 .card-monument h3{
-   font-size: 28px;
-   text-align: center;
-   color:#f08181;
-   background-color:#fdf0f6 ;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   padding-left: 20px;
-   padding-right: 20px;
-   border-radius: 4px;
-   margin-right: 300px;
-   margin-left: 300px;
-   margin-top: 15px;
+   	font-size: 28px;
+   	text-align: center;
+	align-items: flex-start;
+   	color:#f08181;
+   	background-color:#fdf0f6;
+   	margin-left: 15%;
+   	margin-right: 15%;
 }
 
 .card-monument p{
@@ -128,27 +127,20 @@ list-style-type: none;
 	display:inline;
 }  
 
-
-@media (max-width: 960px) {
-  .card-monument {
-    flex-direction: column;
-   width: 700px;
-}
-
 @media (max-width: 720px) {
-  .card.monument {
-    flex-direction: column;
-     width: 500px;
-   
-}
-
-@media (max-width: 540px) {
-  .card-monument {
-    flex-direction: column;
-    width: 300px;
+  .card {
+    
+  flex-flow: row wrap;
   
   }
+  .card img{
+	max-width:100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.intro-city{
+	width: 100%;
+}
 
-
-
-	/* flex-direction: column;*/
+}

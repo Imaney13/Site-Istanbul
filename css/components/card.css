@@ -1,13 +1,13 @@
 .card{
-  padding:20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0px 10px 30px rgba(0,0,0,2);
-  border-radius: 4px;
-  flex-basis:200px ;
-  background: #fdf0f6;
-  margin-top: 5px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,2);
+	border-radius: 4px;
+	flex-basis:200px ;
+	background: #fdf0f6;
+	margin-top: 5px;
 }
 
 .card img{
@@ -43,21 +43,21 @@
 }
 
 .monuments{
-  padding:20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0px 10px 30px rgba(0,0,0,2);
-  border-radius: 4px;
-  flex-basis:200px ;
-  flex-direction: row-reverse;
-  background: #fdf0f6;
-  text-align: center;
-  margin-top: 5px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,2);
+	border-radius: 4px;
+	flex-basis:200px ;
+	flex-direction: row-reverse;
+	background: #fdf0f6;
+	text-align: center;
+	margin-top: 5px;
 }
 
 .card-monument{
-    flex-flow: row wrap;
+	flex-flow: row wrap;
 	background: #fbf9fa;
 	max-width:90%;
 	border-radius: 4px;
@@ -77,13 +77,13 @@
 }
 
 .card-monument h3{
-   	font-size: 28px;
-   	text-align: center;
+	font-size: 28px;
+	text-align: center;
 	align-items: flex-start;
-   	color:#f08181;
-   	background-color:#fdf0f6;
-   	margin-left: 15%;
-   	margin-right: 15%;
+	color:#f08181;
+	background-color:#fdf0f6;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .card-monument p{
@@ -95,7 +95,7 @@
 }
 
 .follow{
-    background: #fdf0f6;
+	background: #fdf0f6;
 	padding-top: 5px;
 	padding-bottom: 100px;
 	padding-left: 50px;
@@ -112,15 +112,15 @@
 }
 
 .follow ul {
-list-style-type: none;
+	list-style-type: none;
 }
 
 .follow ul {
- float:left;
- width:100%;
- padding:0;
- margin:0;
- list-style-type:none;
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
 }
 
 .follow li { 
@@ -128,19 +128,19 @@ list-style-type: none;
 }  
 
 @media (max-width: 720px) {
-  .card {
-    
-  flex-flow: row wrap;
-  
-  }
-  .card img{
-	max-width:100%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-.intro-city{
-	width: 100%;
-}
+	.card {
+		
+		flex-flow: row wrap;
+		
+	}
+	.card img{
+		max-width:100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.intro-city{
+		width: 100%;
+	}
 
 }
